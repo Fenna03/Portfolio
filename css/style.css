@@ -64,7 +64,7 @@ body {
     height: 90%;
     background-color: #1C1B22;
     position: absolute;
-    left: 100px;
+    left: 70px;
     top: 40px;
 }
 
@@ -84,29 +84,69 @@ body {
     filter: invert(100%);
 }
 
+#FennaMandersPic {
+    position: absolute;
+    width: 250px;
+    left: 65px;
+    top: -5px;
+}
+
+#removeBoxPic:hover {
+    background-color: #2e2d36;
+}
+
+#removeBoxPic {
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    right: 110px;
+}
+
 #removeScreenPic {
-    width: 2.5%;
-    height: 2.5%;
-    right: 90px;
-    top: 17px;
+    width: 30%;
+    height: 30%;
+    right: 17px;
+    top: 20px;
     filter: invert(100%);
     position: absolute;
+}
+
+#bigBoxPic:hover {
+    background-color: #2e2d36;
+}
+
+#bigBoxPic {
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    right: 55px;
 }
 
 #bigScreenPic {
-    width: 2.5%;
-    height: 2.5%;
-    right: 50px;
-    top: 17px;
+    width: 30%;
+    height: 30%;
+    right: 17px;
+    top: 20px;
     filter: invert(100%);
     position: absolute;
 }
 
+#closeBoxPic:hover {
+    background-color: #960f16;
+}
+
+#closeBoxPic {
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    right: 0px;
+}
+
 #closeScreenPic {
-    width: 2.5%;
-    height: 2.5%;
-    right: 10px;
-    top: 17px;
+    width: 30%;
+    height: 30%;
+    right: 19px;
+    top: 20px;
     filter: invert(100%);
     position: absolute;
 }
@@ -120,9 +160,9 @@ body {
 }
 
 #TextBoxAboutMe {
-    width: 800px;
+    width: 740px;
     display: block;
-    margin-left: 810px;
+    margin-left: 780px;
     margin-top: 80px;
 }
 
