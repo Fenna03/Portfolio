@@ -59,28 +59,78 @@ body {
     display: flex;
 }
 
-#bigMePic {
+#bigMeBox {
     width: 45%;
     height: 90%;
     background-color: #1C1B22;
     position: absolute;
-    border-radius: 10px;
     left: 100px;
     top: 40px;
 }
 
-#TextBoxAboutMe {
+#boxPic {
+    background-color: #2e2d36;
     position: absolute;
-    display: block;
+    width: 55px;
+    height: 55px;
 }
 
-#aboutMeText {
+#ScreenPic {
+    width: 50%;
+    height: 50%;
+    top: 12px;
+    left: 12px;
     position: absolute;
+    filter: invert(100%);
+}
+
+#removeScreenPic {
+    width: 2.5%;
+    height: 2.5%;
+    right: 90px;
+    top: 17px;
+    filter: invert(100%);
+    position: absolute;
+}
+
+#bigScreenPic {
+    width: 2.5%;
+    height: 2.5%;
+    right: 50px;
+    top: 17px;
+    filter: invert(100%);
+    position: absolute;
+}
+
+#closeScreenPic {
+    width: 2.5%;
+    height: 2.5%;
+    right: 10px;
+    top: 17px;
+    filter: invert(100%);
+    position: absolute;
+}
+
+#bigMePic {
+    width: 97%;
+    height: 90%;
+    position: absolute;
+    left: 11px;
+    bottom: 11px;
+}
+
+#TextBoxAboutMe {
+    width: 800px;
+    display: block;
+    margin-left: 810px;
+    margin-top: 80px;
 }
 
 #aboutMeTextBig {
-    position: absolute;
+    font-size: 4.9em;
 }
+
+#actualTextAboutMe {}
 
 /*#endregion aboutMe*/
 
